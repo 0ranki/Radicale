@@ -1,3 +1,9 @@
+# Radicale container image
+This repo contains a container image of Radicale, slight modifications are
+made to the Dockerfile for persistent configuration.
+
+Forked from [](https://github.com/Kozea/Radicale)
+
 # Radicale
 
 [![Test](https://github.com/Kozea/Radicale/actions/workflows/test.yml/badge.svg?branch=v3)](https://github.com/Kozea/Radicale/actions/workflows/test.yml)

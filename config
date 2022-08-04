@@ -77,7 +77,7 @@
 #type = owner_only
 
 # File for rights management from_file
-#file = /etc/radicale/rights
+file = /etc/radicale/rights
 
 
 [storage]

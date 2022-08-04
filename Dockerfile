@@ -15,6 +15,7 @@ ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["radicale", "--hosts", "0.0.0.0:5232"]
 
 ADD config /
+ADD rights /
 ADD docker-entrypoint.sh /
 RUN apk add --no-cache ca-certificates openssl \
  && apk add --no-cache --virtual .build-deps gcc libffi-dev musl-dev \

@@ -1,6 +1,7 @@
 # Radicale container image
 
 [![Automatic Build](https://github.com/0ranki/Radicale/actions/workflows/build-container.yml/badge.svg)](https://github.com/0ranki/Radicale/actions/workflows/build-container.yml)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/0ranki/Radicale)
 
 This repo contains a container image of Radicale, slight modifications are
 made to the Dockerfile for persistent configuration.

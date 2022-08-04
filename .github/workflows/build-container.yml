@@ -1,6 +1,8 @@
 name: Automatic Build
 on:
   push:
+    tags:
+      - '3*'
   workflow_dispatch:
 jobs:
   build:
